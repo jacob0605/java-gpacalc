@@ -134,6 +134,7 @@ String input = Console.readLine();
 - 기능을 구현하기 전에 구현할 기능 목록을 `docs/README.md`에 정리한다.
     - 작성 양식은 자유이나, 필요한 경우 [마크다운](https://github.com/jinkyukim-me/markdown_ko) 문법을 참고한다.
 - 구현이 완료되면 이 저장소에 Pull Request 를 보내 과제를 제출한다.
+    - base 브랜치는 자신의 깃허브 아이디로 한다. (예시: `zionhann:foo` <- `foo:main`)
     - PR 제목은 `홍길동 과제 리뷰 요청합니다.` 형식으로 작성한다.
     - PR 본문에는 자유 형식으로 과제에 대한 소감(회고)을 작성한다.
     - 과제 진행중에 궁금한 점은 깃허브 `Discussions`을 활용해 질문한다.
