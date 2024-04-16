@@ -1,0 +1,16 @@
+name: Create Branch on Fork
+on: fork
+jobs:
+  create_branch:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Branch
+        run: |
+          BRANCH_NAME=$GITHUB_ACTOR
+          git checkout -b $BRANCH_NAME
+          git push -u origin $BRANCH_NAME
